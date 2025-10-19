@@ -264,28 +264,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "pin_to_pin|1892300|889000|cc7df56e-df46-4c9f-ac7e-b0eb13b0e1f7|1f6d69fd-fe15-4723-9fd9-4d0833ef84f9|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/1802e340-067b-4c70-8138-d845438ae144",
-        ""
-      ],
-      [
-        "power_pin_not_driven|1066800|889000|bc465b4e-9f1d-4380-8a51-086d16225a10|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|1384300|965200|3f8c2f40-e615-4d12-9959-be4901b6dfa5|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|1625600|876300|79194fe0-21ab-4c00-b553-58fcb29dd786|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/542878b0-9aae-45cf-ad58-4d9e0bda3cee/3907d691-16c9-46b9-8e1c-0399c2dec8f4|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/542878b0-9aae-45cf-ad58-4d9e0bda3cee/3907d691-16c9-46b9-8e1c-0399c2dec8f4|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|419100|736600|de791766-62ca-4af1-963d-fa02e3462e9f|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/542878b0-9aae-45cf-ad58-4d9e0bda3cee|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/542878b0-9aae-45cf-ad58-4d9e0bda3cee|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -756,7 +735,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "GERBERS/2_13",
+      "plot": "GERBERS/1_00",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../../protea.step",
@@ -1048,8 +1027,8 @@
     ]
   ],
   "text_variables": {
-    "DATE": "2025-10-17",
-    "NAME": "Protea",
-    "VERSION": "2.13"
+    "DATE": "2025-10-19",
+    "NAME": "Protea32",
+    "VERSION": "1.00"
   }
 }
