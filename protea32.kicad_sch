@@ -2135,7 +2135,7 @@
 		)
 		(uuid "84ba8266-3b0f-4f7f-8db5-be51ae8acecf")
 	)
-	(label "UT_RTS"
+	(label "ESP_RTS"
 		(at 27.94 116.84 0)
 		(effects
 			(font
@@ -2255,7 +2255,7 @@
 		)
 		(uuid "95cef3ce-0a2c-40c9-ac9b-99874fb35683")
 	)
-	(label "UT_DTR"
+	(label "ESP_DTR"
 		(at 27.94 114.3 0)
 		(effects
 			(font

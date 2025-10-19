@@ -76,15 +76,6 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(symbol "C_0_1"
 				(polyline
 					(pts
@@ -205,15 +196,6 @@
 				)
 			)
 			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -935,7 +917,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "186528c2-c55c-4e27-8941-129e810ec949")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR0127"
 			(at 170.18 114.3 0)
 			(effects
 				(font
@@ -986,7 +968,7 @@
 		(instances
 			(project "protea32"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/542878b0-9aae-45cf-ad58-4d9e0bda3cee/40a93926-f68e-4b17-bd29-d89ea6b5eee8"
-					(reference "#PWR0147")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -1001,7 +983,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75276c06-daed-419a-a9f1-5ef50d9a3ad9")
-		(property "Reference" "R44"
+		(property "Reference" "R38"
 			(at 153.8478 81.28 90)
 			(effects
 				(font
@@ -1026,7 +1008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
+		(property "Datasheet" "~"
 			(at 148.59 81.28 0)
 			(effects
 				(font
@@ -1035,7 +1017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 148.59 81.28 0)
 			(effects
 				(font
@@ -1070,7 +1052,7 @@
 		(instances
 			(project "protea32"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/542878b0-9aae-45cf-ad58-4d9e0bda3cee/40a93926-f68e-4b17-bd29-d89ea6b5eee8"
-					(reference "R44")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -1085,7 +1067,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a0f81c8-1ec6-466d-adee-41ec3f6e1df7")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR0128"
 			(at 190.5 78.74 0)
 			(effects
 				(font
@@ -1135,7 +1117,7 @@
 		(instances
 			(project "protea32"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/542878b0-9aae-45cf-ad58-4d9e0bda3cee/40a93926-f68e-4b17-bd29-d89ea6b5eee8"
-					(reference "#PWR0148")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -1151,7 +1133,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb6bbc6d-2af2-4c4d-8695-84d4b5d8a2fb")
-		(property "Reference" "U13"
+		(property "Reference" "U12"
 			(at 176.53 93.9799 0)
 			(effects
 				(font
@@ -1232,7 +1214,7 @@
 		(instances
 			(project "protea32"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/542878b0-9aae-45cf-ad58-4d9e0bda3cee/40a93926-f68e-4b17-bd29-d89ea6b5eee8"
-					(reference "U13")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -1247,7 +1229,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da96faa9-fbb1-4ec3-977b-a5fe2c4c8784")
-		(property "Reference" "C52"
+		(property "Reference" "C45"
 			(at 182.118 75.184 90)
 			(effects
 				(font
@@ -1274,7 +1256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/45199/vjcommercialseries.pdf"
+		(property "Datasheet" "~"
 			(at 180.34 78.74 0)
 			(effects
 				(font
@@ -1283,7 +1265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 180.34 78.74 0)
 			(effects
 				(font
@@ -1319,7 +1301,7 @@
 		(instances
 			(project "protea32"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/542878b0-9aae-45cf-ad58-4d9e0bda3cee/40a93926-f68e-4b17-bd29-d89ea6b5eee8"
-					(reference "C52")
+					(reference "C45")
 					(unit 1)
 				)
 			)
