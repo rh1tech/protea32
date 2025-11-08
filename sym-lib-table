@@ -9,4 +9,5 @@
   (lib (name "2025-08-22_08-53-05")(type "KiCad")(uri "${KIPRJMOD}/LIBS/2025-08-22_08-53-05.kicad_sym")(options "")(descr ""))
   (lib (name "CMT-7525-80-SMT-TR")(type "KiCad")(uri "${KIPRJMOD}/LIBS/CMT-7525-80-SMT-TR.kicad_sym")(options "")(descr ""))
   (lib (name "Protea")(type "KiCad")(uri "${KIPRJMOD}/LIBS/Protea.kicad_sym")(options "")(descr ""))
+  (lib (name "DS2401P+")(type "KiCad")(uri "${KIPRJMOD}/LIBS/DS2401P+.kicad_sym")(options "")(descr ""))
 )

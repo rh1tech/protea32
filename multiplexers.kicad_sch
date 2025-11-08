@@ -9,7 +9,7 @@
 		(date "${DATE}")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
-		(comment 1 "https://github.com/xtremespb/frank")
+		(comment 1 "https://github.com/rh1tech/protea")
 	)
 	(lib_symbols
 		(symbol "Protea:74HC4052D"
@@ -1507,7 +1507,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0603, S)"
+		(property "Footprint" "FRANK:Resistor (0603)"
 			(at 173.228 82.55 90)
 			(effects
 				(font
@@ -2431,7 +2431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:Capacitor (0603, S)"
+		(property "Footprint" "FRANK:Capacitor (0603)"
 			(at 172.4152 57.15 0)
 			(effects
 				(font
@@ -2584,7 +2584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:Capacitor (0603, S)"
+		(property "Footprint" "FRANK:Capacitor (0603)"
 			(at 172.4152 111.76 0)
 			(effects
 				(font
@@ -3442,7 +3442,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0603, S)"
+		(property "Footprint" "FRANK:Resistor (0603)"
 			(at 173.228 137.16 90)
 			(effects
 				(font

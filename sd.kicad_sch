@@ -9,7 +9,7 @@
 		(date "${DATE}")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
-		(comment 1 "https://github.com/xtremespb/frank")
+		(comment 1 "https://github.com/rh1tech/protea")
 	)
 	(lib_symbols
 		(symbol "Protea:+3V3"
@@ -833,10 +833,10 @@
 		)
 	)
 	(junction
-		(at 123.19 107.95)
+		(at 162.56 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "16ede279-bab6-4544-8f94-aae65ce879de")
+		(uuid "05610f36-cc6c-47a2-8586-2042a7262da5")
 	)
 	(junction
 		(at 184.15 95.25)
@@ -845,16 +845,22 @@
 		(uuid "39b037ee-ba89-4f55-8f6c-ccc4cf8a7876")
 	)
 	(junction
-		(at 165.1 92.71)
+		(at 121.92 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "663164c6-960d-49df-8443-b19a04678e49")
+		(uuid "401546ed-0c5d-429c-9255-a9d201c76823")
 	)
 	(junction
 		(at 165.1 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c68f2d05-116f-470d-b8fd-2d3e02752d21")
+		(uuid "5a11e651-7937-4e12-b985-6eb282865559")
+	)
+	(junction
+		(at 170.18 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f357c98f-9dca-4347-be82-9863d972c24f")
 	)
 	(no_connect
 		(at 127 102.87)
@@ -884,37 +890,27 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 87.63) (xy 184.15 95.25)
+			(xy 170.18 76.2) (xy 170.18 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "124fbf4d-832f-4bb7-880d-3ec96ed909b5")
+		(uuid "246ba872-4554-4d70-b56d-3d77d89f969d")
 	)
 	(wire
 		(pts
-			(xy 165.1 92.71) (xy 170.18 92.71)
+			(xy 121.92 114.3) (xy 121.92 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "244a4333-adab-41be-8a93-83f3b8e31e61")
+		(uuid "34a97311-d0ef-44c3-b6c1-026a74c6a570")
 	)
 	(wire
 		(pts
-			(xy 165.1 102.87) (xy 170.18 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32c97027-d2a2-431b-ac22-019d83c6351a")
-	)
-	(wire
-		(pts
-			(xy 116.84 107.95) (xy 123.19 107.95)
+			(xy 116.84 107.95) (xy 121.92 107.95)
 		)
 		(stroke
 			(width 0)
@@ -924,7 +920,47 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 92.71) (xy 165.1 92.71)
+			(xy 170.18 86.36) (xy 170.18 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f9dad4d-baa3-4ff7-aa9f-9a72802fecc3")
+	)
+	(wire
+		(pts
+			(xy 162.56 97.79) (xy 170.18 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4310758f-df27-43ca-8c3d-233392a37d42")
+	)
+	(wire
+		(pts
+			(xy 162.56 76.2) (xy 162.56 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49f47a4f-fd71-4ac5-bf0b-f360989abb77")
+	)
+	(wire
+		(pts
+			(xy 165.1 119.38) (xy 165.1 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b73f29e-d170-4629-9bbb-c6566e398364")
+	)
+	(wire
+		(pts
+			(xy 160.02 92.71) (xy 170.18 92.71)
 		)
 		(stroke
 			(width 0)
@@ -934,43 +970,43 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 102.87) (xy 165.1 105.41)
+			(xy 121.92 124.46) (xy 121.92 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c64c5ad-4be3-4028-bd77-616de6dbed08")
+		(uuid "55bf93b8-e53f-4d4b-9ec8-0ae8bfdeac8c")
 	)
 	(wire
 		(pts
-			(xy 123.19 107.95) (xy 127 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76d3442b-df5b-4240-baf4-768d4a349e5a")
-	)
-	(wire
-		(pts
-			(xy 165.1 92.71) (xy 165.1 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f8e88ec-95e5-49a3-b269-19cc7919fcec")
-	)
-	(wire
-		(pts
-			(xy 160.02 97.79) (xy 170.18 97.79)
+			(xy 160.02 97.79) (xy 162.56 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "848c0edc-eb95-4f91-85c7-f10c7c6ace28")
+	)
+	(wire
+		(pts
+			(xy 165.1 109.22) (xy 165.1 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c173a10-8831-49fc-91c2-63f362549df5")
+	)
+	(wire
+		(pts
+			(xy 165.1 102.87) (xy 170.18 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b10906e6-4029-439e-b8de-c44903ca3ca6")
 	)
 	(wire
 		(pts
@@ -984,16 +1020,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 107.95) (xy 123.19 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf00761d-176b-43ed-83ff-a740aaf1fd35")
-	)
-	(wire
-		(pts
 			(xy 184.15 95.25) (xy 189.23 95.25)
 		)
 		(stroke
@@ -1001,6 +1027,46 @@
 			(type default)
 		)
 		(uuid "d4f7c245-04a1-40a0-af2a-11af71bceaa2")
+	)
+	(wire
+		(pts
+			(xy 184.15 88.9) (xy 184.15 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e10cba12-b3b6-4de4-bf2b-7a7193252aaf")
+	)
+	(wire
+		(pts
+			(xy 162.56 86.36) (xy 162.56 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eafaa9ab-004a-4a97-b090-69fdd1c7540a")
+	)
+	(wire
+		(pts
+			(xy 121.92 107.95) (xy 127 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece94bc6-1afb-47bf-a839-d6f793882d98")
+	)
+	(wire
+		(pts
+			(xy 170.18 92.71) (xy 173.99 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f73fc8e9-a491-406f-9e63-e1c89175be55")
 	)
 	(hierarchical_label "CLK"
 		(shape input)
@@ -1037,7 +1103,7 @@
 	)
 	(hierarchical_label "CMD"
 		(shape input)
-		(at 170.18 92.71 0)
+		(at 173.99 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1048,31 +1114,33 @@
 	)
 	(symbol
 		(lib_id "Protea:R")
-		(at 123.19 114.3 0)
+		(at 121.92 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "28e010d1-fc45-4667-b297-c6edba91b864")
+		(uuid "07ed8a8f-dbeb-4aed-bd88-3d334cc01af8")
 		(property "Reference" "R24"
-			(at 125.222 114.3 90)
+			(at 124.206 116.332 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "10K"
-			(at 120.904 114.3 90)
+			(at 119.634 117.094 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0603, S)"
-			(at 121.412 114.3 90)
+		(property "Footprint" "FRANK:Resistor (0603)"
+			(at 120.142 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1081,7 +1149,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 123.19 114.3 0)
+			(at 121.92 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1090,7 +1158,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 114.3 0)
+			(at 121.92 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1099,7 +1167,7 @@
 			)
 		)
 		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
-			(at 123.19 114.3 0)
+			(at 121.92 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1108,7 +1176,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 123.19 114.3 0)
+			(at 121.92 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1116,15 +1184,81 @@
 			)
 		)
 		(pin "1"
-			(uuid "376121a9-d974-4f1e-8e0e-4abfe2d251f0")
+			(uuid "0995a5b7-fc5f-4c9f-8207-7fa5b3d3b792")
 		)
 		(pin "2"
-			(uuid "1bbdf54c-2f10-4bf0-9801-50b2ff8b0d47")
+			(uuid "e8abd7cd-6e9c-48b0-906f-f579fd04321e")
 		)
 		(instances
-			(project "protea32"
+			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/dcad9fa4-633b-4c75-add1-11aea46e0585"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Protea:+3V3")
+		(at 121.92 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b54a66a-3015-42b3-a974-22474ec2bd59")
+		(property "Reference" "#PWR081"
+			(at 121.92 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 121.92 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 121.92 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a002206f-5fd2-4922-8d01-8a51efcebc1f")
+		)
+		(instances
+			(project "protea"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/dcad9fa4-633b-4c75-add1-11aea46e0585"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -1157,7 +1291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:Capacitor (0603, S)"
+		(property "Footprint" "FRANK:Capacitor (0603)"
 			(at 189.23 96.2152 0)
 			(effects
 				(font
@@ -1218,7 +1352,7 @@
 	)
 	(symbol
 		(lib_id "Protea:+3V3")
-		(at 184.15 87.63 0)
+		(at 184.15 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1226,8 +1360,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32d9018f-5322-4d0e-9f88-962e404387e9")
-		(property "Reference" "#PWR088"
-			(at 184.15 91.44 0)
+		(property "Reference" "#PWR089"
+			(at 184.15 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1236,7 +1370,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 184.15 82.55 0)
+			(at 184.15 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1244,7 +1378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 87.63 0)
+			(at 184.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1253,7 +1387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 87.63 0)
+			(at 184.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1262,7 +1396,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 184.15 87.63 0)
+			(at 184.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1276,7 +1410,7 @@
 		(instances
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/dcad9fa4-633b-4c75-add1-11aea46e0585"
-					(reference "#PWR088")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -1291,7 +1425,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c4e3820-b9b0-4365-898e-b2c3b730f8f8")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR090"
 			(at 203.2 95.25 0)
 			(effects
 				(font
@@ -1343,7 +1477,93 @@
 		(instances
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/dcad9fa4-633b-4c75-add1-11aea46e0585"
-					(reference "#PWR089")
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Protea:R")
+		(at 162.56 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43aaada4-d524-43af-a370-abb84ab5211c")
+		(property "Reference" "R25"
+			(at 160.274 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 164.846 83.566 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "FRANK:Resistor (0603)"
+			(at 164.338 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f2f4b6a-ae4b-42d2-9154-dbb00d8a55cc")
+		)
+		(pin "2"
+			(uuid "51875b63-2eda-458a-813c-233492f3a518")
+		)
+		(instances
+			(project "protea"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/dcad9fa4-633b-4c75-add1-11aea46e0585"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -1417,184 +1637,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Protea:R")
-		(at 165.1 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6bc9028d-b00d-4c43-aa47-59c0c2dcacb2")
-		(property "Reference" "R26"
-			(at 167.132 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 162.814 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FRANK:Resistor (0603, S)"
-			(at 163.322 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 165.1 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
-			(at 165.1 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 165.1 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "70bba063-ef38-4eed-b1b7-0203f54bd9f7")
-		)
-		(pin "2"
-			(uuid "993b5669-ca67-4c80-b7ce-c8b9a04c2cd1")
-		)
-		(instances
-			(project "protea32"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/dcad9fa4-633b-4c75-add1-11aea46e0585"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Protea:R")
-		(at 165.1 86.36 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "742f2565-4dc3-4d05-8df7-10ea98ba7a7e")
-		(property "Reference" "R25"
-			(at 163.068 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 167.386 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FRANK:Resistor (0603, S)"
-			(at 166.878 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
-			(at 165.1 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
-			(at 165.1 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 165.1 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "399df123-6ed3-47ed-b362-4c9c293579ce")
-		)
-		(pin "2"
-			(uuid "310fcfc9-174f-4d58-961d-b28ad3210f73")
-		)
-		(instances
-			(project "protea32"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/dcad9fa4-633b-4c75-add1-11aea46e0585"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Protea:+3V3")
-		(at 123.19 118.11 180)
+		(at 162.56 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "943bc150-82f7-4b67-a3b7-f190bf2166c8")
-		(property "Reference" "#PWR081"
-			(at 123.19 114.3 0)
+		(fields_autoplaced yes)
+		(uuid "4ecb557d-00b1-466a-aa41-6f22d9c2d590")
+		(property "Reference" "#PWR086"
+			(at 162.56 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1603,7 +1656,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 123.19 122.428 0)
+			(at 162.56 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1611,7 +1664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 118.11 0)
+			(at 162.56 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,7 +1673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 118.11 0)
+			(at 162.56 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1629,7 +1682,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 123.19 118.11 0)
+			(at 162.56 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1638,12 +1691,250 @@
 			)
 		)
 		(pin "1"
-			(uuid "749e8100-6fec-468c-89e4-482ffb34be25")
+			(uuid "40f05374-35e7-478c-a4c3-e6d33d418138")
 		)
 		(instances
-			(project "protea32"
+			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/dcad9fa4-633b-4c75-add1-11aea46e0585"
-					(reference "#PWR081")
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Protea:R")
+		(at 165.1 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "615ff724-a6c1-4a10-8979-145c39b81470")
+		(property "Reference" "R26"
+			(at 167.386 111.252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 162.814 112.014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "FRANK:Resistor (0603)"
+			(at 163.322 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
+			(at 165.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
+			(at 165.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 165.1 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0c4430a-8047-4221-a2a0-dc61fb4ba6cf")
+		)
+		(pin "2"
+			(uuid "6c5889f0-82e7-4f87-b9b6-cb478ff20820")
+		)
+		(instances
+			(project "protea"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/dcad9fa4-633b-4c75-add1-11aea46e0585"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Protea:+3V3")
+		(at 170.18 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73b50fd8-bad8-44ae-8a81-f79493ae8f76")
+		(property "Reference" "#PWR088"
+			(at 170.18 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 170.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 170.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d042f730-963b-4baa-8053-4c20677d14fd")
+		)
+		(instances
+			(project "protea"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/dcad9fa4-633b-4c75-add1-11aea46e0585"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Protea:R")
+		(at 170.18 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74438e3a-986b-4fce-82fa-0727a31affa8")
+		(property "Reference" "R27"
+			(at 167.894 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 172.466 83.566 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "FRANK:Resistor (0603)"
+			(at 171.958 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/28952/mcs0402at-mct0603at-mcu0805at-mca1206at.pdf"
+			(at 170.18 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AliExpress" "https://www.aliexpress.com/item/1005005945735199.html"
+			(at 170.18 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 170.18 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4415824-2847-4fce-98bf-2c00c5a47bf0")
+		)
+		(pin "2"
+			(uuid "90e1c795-45c9-45b7-96f8-9f78d77b5baa")
+		)
+		(instances
+			(project "protea"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/dcad9fa4-633b-4c75-add1-11aea46e0585"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -1812,6 +2103,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Protea:+3V3")
+		(at 165.1 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab7b788f-98fa-4a9e-8590-3b58bbcf3829")
+		(property "Reference" "#PWR087"
+			(at 165.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 165.1 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 165.1 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3fe58de-4067-4415-a194-ecb36e12d694")
+		)
+		(instances
+			(project "protea"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/dcad9fa4-633b-4c75-add1-11aea46e0585"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Protea:GND")
 		(at 160.02 100.33 90)
 		(unit 1)
@@ -1873,71 +2230,6 @@
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/dcad9fa4-633b-4c75-add1-11aea46e0585"
 					(reference "#PWR085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Protea:+3V3")
-		(at 165.1 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "daa92fe9-3804-4619-ab2f-e7db61579870")
-		(property "Reference" "#PWR086"
-			(at 165.1 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 165.1 78.232 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 165.1 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95799c96-fb50-406a-8cf6-85a444c1a08f")
-		)
-		(instances
-			(project "protea32"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/dcad9fa4-633b-4c75-add1-11aea46e0585"
-					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -2072,71 +2364,6 @@
 			(project "minifrank_rm1"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/dcad9fa4-633b-4c75-add1-11aea46e0585"
 					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Protea:+3V3")
-		(at 165.1 113.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f3bcdb37-e07c-40cf-8144-55e1a65b8fdf")
-		(property "Reference" "#PWR087"
-			(at 165.1 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 165.1 117.348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 165.1 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef56df06-d4bd-4370-98ce-e37d9fce91b9")
-		)
-		(instances
-			(project "protea32"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/dcad9fa4-633b-4c75-add1-11aea46e0585"
-					(reference "#PWR087")
 					(unit 1)
 				)
 			)

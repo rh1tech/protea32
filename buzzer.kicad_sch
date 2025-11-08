@@ -9,7 +9,7 @@
 		(date "${DATE}")
 		(rev "${VERSION}")
 		(company "Mikhail Matveev")
-		(comment 1 "https://github.com/xtremespb/frank")
+		(comment 1 "https://github.com/rh1tech/protea")
 	)
 	(lib_symbols
 		(symbol "Protea:1N4148"
@@ -1466,7 +1466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0603, S)"
+		(property "Footprint" "FRANK:Resistor (0603)"
 			(at 120.65 92.202 90)
 			(effects
 				(font
@@ -1618,7 +1618,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0603, S)"
+		(property "Footprint" "FRANK:Resistor (0603)"
 			(at 116.078 102.87 90)
 			(effects
 				(font
@@ -1687,7 +1687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "caae5914-dde9-41d3-a8a6-89f3138a4233")
-		(property "Reference" "LS1"
+		(property "Reference" "U11"
 			(at 153.67 63.5 0)
 			(effects
 				(font
@@ -1806,7 +1806,7 @@
 		(instances
 			(project "protea"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/745a17db-43e3-4b47-bd96-a8d1c23cf5c8"
-					(reference "LS1")
+					(reference "U11")
 					(unit 1)
 				)
 			)

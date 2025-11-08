@@ -830,7 +830,7 @@
 		)
 		(instances
 			(project "protea32"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/542878b0-9aae-45cf-ad58-4d9e0bda3cee/3907d691-16c9-46b9-8e1c-0399c2dec8f4"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b7bb8eb4-1c1a-4a33-b2e9-225ce0ce3935/3907d691-16c9-46b9-8e1c-0399c2dec8f4"
 					(reference "U8")
 					(unit 1)
 				)
@@ -896,7 +896,7 @@
 		)
 		(instances
 			(project "protea32"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/542878b0-9aae-45cf-ad58-4d9e0bda3cee/3907d691-16c9-46b9-8e1c-0399c2dec8f4"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b7bb8eb4-1c1a-4a33-b2e9-225ce0ce3935/3907d691-16c9-46b9-8e1c-0399c2dec8f4"
 					(reference "#PWR054")
 					(unit 1)
 				)
@@ -983,7 +983,7 @@
 		)
 		(instances
 			(project "protea32"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/542878b0-9aae-45cf-ad58-4d9e0bda3cee/3907d691-16c9-46b9-8e1c-0399c2dec8f4"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b7bb8eb4-1c1a-4a33-b2e9-225ce0ce3935/3907d691-16c9-46b9-8e1c-0399c2dec8f4"
 					(reference "C23")
 					(unit 1)
 				)
@@ -1048,7 +1048,7 @@
 		)
 		(instances
 			(project "protea32"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/542878b0-9aae-45cf-ad58-4d9e0bda3cee/3907d691-16c9-46b9-8e1c-0399c2dec8f4"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/b7bb8eb4-1c1a-4a33-b2e9-225ce0ce3935/3907d691-16c9-46b9-8e1c-0399c2dec8f4"
 					(reference "#PWR055")
 					(unit 1)
 				)

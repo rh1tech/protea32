@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -60,11 +60,11 @@
       ],
       "drc_exclusions": [
         [
-          "annular_width|192000000|123375000|5f2396ef-0dab-4c2d-a0ab-63a6bfed39de|00000000-0000-0000-0000-000000000000",
+          "annular_width|150515512|126446518|cdaafc62-0674-4519-80c7-02aff85986ba|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_mismatch|185150000|126000000|6d1bb2b9-66b8-4979-8ce9-dae0daf0baf1|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|143665512|129071518|3f9153dc-abb6-4060-bf9f-5f5958de3420|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -203,7 +203,6 @@
         0.2,
         0.25,
         0.3,
-        0.35,
         0.4,
         0.5,
         0.6,
@@ -470,7 +469,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "error",
-      "power_pin_not_driven": "warning",
+      "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -735,7 +734,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "GERBERS/1_00",
+      "plot": "GERBERS/2_13",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../../protea.step",
@@ -929,7 +928,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -960,7 +959,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "./DOCS/1_00",
+    "plot_directory": "./DOCS/2_13",
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
@@ -1010,10 +1009,6 @@
       "JMP, LED, TP"
     ],
     [
-      "542878b0-9aae-45cf-ad58-4d9e0bda3cee",
-      "ESP32"
-    ],
-    [
       "40a93926-f68e-4b17-bd29-d89ea6b5eee8",
       "ESP32-PSRAM"
     ],
@@ -1024,11 +1019,15 @@
     [
       "1802e340-067b-4c70-8138-d845438ae144",
       "USB to TTL"
+    ],
+    [
+      "b7bb8eb4-1c1a-4a33-b2e9-225ce0ce3935",
+      "ESP32"
     ]
   ],
   "text_variables": {
-    "DATE": "2025-10-19",
+    "DATE": "2025-11-08",
     "NAME": "Protea32",
-    "VERSION": "1.00"
+    "VERSION": "1.01"
   }
 }
