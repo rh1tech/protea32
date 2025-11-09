@@ -2334,7 +2334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:Capacitor (0603)"
+		(property "Footprint" "FRANK:Capacitor (0603, S)"
 			(at 167.64 86.6648 0)
 			(effects
 				(font

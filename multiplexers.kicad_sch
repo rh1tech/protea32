@@ -1507,7 +1507,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0603)"
+		(property "Footprint" "FRANK:Resistor (0603, S)"
 			(at 173.228 82.55 90)
 			(effects
 				(font
@@ -2431,7 +2431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:Capacitor (0603)"
+		(property "Footprint" "FRANK:Capacitor (0603, S)"
 			(at 172.4152 57.15 0)
 			(effects
 				(font
@@ -2584,7 +2584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FRANK:Capacitor (0603)"
+		(property "Footprint" "FRANK:Capacitor (0603, S)"
 			(at 172.4152 111.76 0)
 			(effects
 				(font
@@ -3442,7 +3442,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0603)"
+		(property "Footprint" "FRANK:Resistor (0603, S)"
 			(at 173.228 137.16 90)
 			(effects
 				(font

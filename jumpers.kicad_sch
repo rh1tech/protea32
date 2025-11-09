@@ -3550,7 +3550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0603)"
+		(property "Footprint" "FRANK:Resistor (0603, S)"
 			(at 187.96 69.088 90)
 			(effects
 				(font
@@ -4118,7 +4118,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0603)"
+		(property "Footprint" "FRANK:Resistor (0603, S)"
 			(at 184.15 77.47 0)
 			(effects
 				(font
@@ -4606,7 +4606,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FRANK:Resistor (0603)"
+		(property "Footprint" "FRANK:Resistor (0603, S)"
 			(at 124.46 127 0)
 			(effects
 				(font
